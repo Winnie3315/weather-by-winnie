@@ -12,6 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'bg-main': 'linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%)'
+      },
+      screens:{
+        xs: { min: "280px", max: "639px" }
+      }
     },
   },
   plugins: [],
